@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>小米小爱智能闹钟 · LED 灯板更换全记录</title>
+<meta name="description" content="小米小爱智能闹钟 LED 灯板更换图文教程：从拆解到复原，13 个步骤 31 张实拍图。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a class="brand" href="#top">
+      <span class="brand-dot"></span>
+      <span class="brand-text">MI ALARM CLOCK <em>维修手记</em></span>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#prep" data-spy>准备</a>
+      <a href="#problem" data-spy>问题</a>
+      <a href="#teardown" data-spy>拆解</a>
+      <a href="#replace" data-spy>更换</a>
+      <a href="#rebuild" data-spy>复原</a>
+      <a href="#gallery" data-spy>成果</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="打开菜单"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="grid-lines"></div>
+    </div>
+    <div class="hero-inner">
+      <div class="hero-copy reveal">
+        <p class="hero-kicker">DIY REPAIR GUIDE · 图文教程</p>
+        <h1>小米小爱智能闹钟<br><span class="grad-text">LED 灯板更换</span>全记录</h1>
+        <p class="hero-sub">当屏幕老化发黄、缺笔画、暗光时，不必整机报废——更换一块全新 LED 灯板即可满血复活。从拆解到复原，每一步都有实拍图。</p>
+        <div class="hero-meta">
+          <span class="chip">🧰 13 个步骤</span>
+          <span class="chip">📸 31 张实拍图</span>
+          <span class="chip">🕒 约 30 分钟</span>
+          <span class="chip">📅 更新于 2026-10-12</span>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#prep">开始阅读 ↓</a>
+          <a class="btn btn-ghost" href="https://www.bilibili.com/video/BV1ETQVYTEdL/" target="_blank" rel="noopener">▶ 观看视频教程</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="device-card">
+          <img src="assets/img/00.jpg" alt="灯板老化发黄的闹钟屏幕（04:46 实拍）">
+          <div class="device-caption">
+            <span class="tag tag-warn">老化</span> 发黄 · 暗光 · 显示模糊
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="scroll-hint" href="#prep" aria-label="向下滚动">▾</a>
+  </section>
+
+  <!-- ================= 准备 ================= -->
+  <section class="section" id="prep">
+    <div class="section-head reveal">
+      <p class="section-no">01</p>
+      <h2>开工前的准备</h2>
+      <p class="section-desc">先收藏好参考资料、备齐工具与新灯板，再动第一根撬棒。</p>
+    </div>
+
+    <div class="card-grid">
+      <a class="res-card reveal" href="https://www.mi.com/mi-smartalarm" target="_blank" rel="noopener">
+        <span class="res-icon">📖</span><h3>官方介绍</h3><p>mi.com 产品页</p><span class="res-arrow">→</span>
+      </a>
+      <a class="res-card reveal" href="https://zhuanlan.zhihu.com/p/67669196" target="_blank" rel="noopener">
+        <span class="res-icon">🔍</span><h3>图文拆解评测</h3><p>知乎专栏</p><span class="res-arrow">→</span>
+      </a>
+      <a class="res-card reveal" href="https://home.mi.com/views/introduction.html?model=zimi.clock.myk01&region=cn" target="_blank" rel="noopener">
+        <span class="res-icon">📄</span><h3>使用说明书</h3><p>米家官方文档</p><span class="res-arrow">→</span>
+      </a>
+      <a class="res-card reveal" href="https://www.bilibili.com/video/BV1ETQVYTEdL/" target="_blank" rel="noopener">
+        <span class="res-icon">🎬</span><h3>灯板更换视频</h3><p>Bilibili</p><span class="res-arrow">→</span>
+      </a>
+    </div>
+
+    <div class="two-col">
+      <div class="panel reveal">
+        <h3><span class="panel-badge">🛒</span>灯板购买渠道</h3>
+        <p>全新 LED 灯板在以下渠道均有售，下单前建议先完成第 5 步，确认铁片下方的灯板型号：</p>
+        <div class="buy-row">
+          <a class="buy-tag buy-taobao" href="https://c.tb.cn/h.jZ9WfrGZF6rtgWr?tk=qQe0TITGGJH" target="_blank" rel="noopener">淘宝 · 去购买 <span class="buy-arrow">↗</span></a>
+          <a class="buy-tag buy-xianyu" href="https://m.tb.cn/h.jYSSehE?tk=x6zMTITuOol" target="_blank" rel="noopener">闲鱼 · 去购买 <span class="buy-arrow">↗</span></a>
+        </div>
+        <p class="panel-note">💡 链接打不开时可用口令搜索：淘宝 <code>HU287</code> · 闲鱼 <code>HU293</code></p>
+      </div>
+      <div class="panel reveal">
+        <h3><span class="panel-badge">🧰</span>工具清单</h3>
+        <ul class="tool-list">
+          <li>吹风机 <small>加热软化双面胶</small></li>
+          <li>塑料撬片 / 撬棒 <small>无损拆壳</small></li>
+          <li>十字螺丝刀 <small>拆卸 4 颗螺丝</small></li>
+          <li>水口钳 / 剪刀 <small>剪断三根针脚</small></li>
+          <li>平口刀 <small>铲掉固定柱</small></li>
+          <li>全新 LED 灯板 <small>核心配件</small></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 问题 ================= -->
+  <section class="section section-alt" id="problem">
+    <div class="section-head reveal">
+      <p class="section-no">02</p>
+      <h2>问题：灯板老化</h2>
+      <p class="section-desc">当闹钟出现<b>发黄、缺笔画、暗光</b>中的任何一种，就说明该更换灯板了——换一块全新的 LED 灯板即可解决。</p>
+    </div>
+    <div class="fig-row problem-figs">
+      <figure class="reveal">
+        <img src="assets/img/01.jpg" loading="lazy" alt="灯板老化：屏幕整体发黄" data-lb>
+        <figcaption>发黄：屏幕整体泛黄，颜色不正（04:41 实拍）</figcaption>
+      </figure>
+      <figure class="reveal">
+        <img src="assets/img/02.jpg" loading="lazy" alt="灯板老化：亮度严重衰减几乎看不清" data-lb>
+        <figcaption>暗光：亮度严重衰减，白天几乎看不清（09:11 实拍）</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ================= 拆解 ================= -->
+  <section class="section" id="teardown">
+    <div class="section-head reveal">
+      <p class="section-no">03</p>
+      <h2>Phase A · 拆解</h2>
+      <p class="section-desc">耐心是唯一的诀窍：加热到位、缓慢撬动，避免划伤外壳。</p>
+    </div>
+
+    <div class="timeline">
+      <article class="step reveal">
+        <div class="step-no">1</div>
+        <div class="step-body">
+          <h3>加热并撬开前面板</h3>
+          <p>先用吹风机给面板加热，从小米小爱智能闹钟正面的塑料挡片撬开。塑料挡片和闹钟之间是通过双面胶粘合的，撬开后可以看到内部的数码管，以及周围布局的 4 个螺丝孔。</p>
+          <div class="fig-row">
+            <figure><img src="assets/img/03.jpg" loading="lazy" alt="从挡片边角撬起（视频演示画面）" data-lb><figcaption>从挡片边角撬起</figcaption></figure>
+            <figure><img src="assets/img/04.jpg" loading="lazy" alt="拆开后可见内部数码管与四个螺丝孔" data-lb><figcaption>内部数码管与 4 个螺丝孔</figcaption></figure>
+            <figure><img src="assets/img/05.jpg" loading="lazy" alt="掀开面板露出螺丝位置" data-lb><figcaption>掀开面板，箭头处为螺丝</figcaption></figure>
+          </div>
+        </div>
+      </article>
+
+      <article class="step reveal">
+        <div class="step-no">2</div>
+        <div class="step-body">
+          <h3>再用塑料撬片撬开外壳</h3>
+          <p>沿着接缝均匀用力，逐点撬开卡扣，切勿硬掰。</p>
+          <div class="fig-row">
+            <figure><img src="assets/img/06.jpg" loading="lazy" alt="掀开外壳露出内部结构" data-lb><figcaption>掀开外壳，露出内部结构</figcaption></figure>
+            <figure><img src="assets/img/07.jpg" loading="lazy" alt="面板与后壳分离" data-lb><figcaption>面板与后壳分离</figcaption></figure>
+          </div>
+        </div>
+      </article>
+
+      <article class="step reveal">
+        <div class="step-no">3</div>
+        <div class="step-body">
+          <h3>拔掉两组线</h3>
+          <p>断开主板上的两组连接线，注意轻拔，避免扯断排线。</p>
+          <div class="fig-row">
+            <figure><img src="assets/img/08.jpg" loading="lazy" alt="拔掉主板上的连接线" data-lb><figcaption>拔下主板上的连接线</figcaption></figure>
+          </div>
+        </div>
+      </article>
+
+      <article class="step reveal">
+        <div class="step-no">4</div>
+        <div class="step-body">
+          <h3>拧掉螺丝</h3>
+          <p>拆下显示模组四角的固定螺丝，为取下主板做准备。</p>
+          <div class="fig-row">
+            <figure><img src="assets/img/09.jpg" loading="lazy" alt="显示模组四角的固定螺丝" data-lb><figcaption>显示模组四角的固定螺丝</figcaption></figure>
+            <figure><img src="assets/img/10.jpg" loading="lazy" alt="红圈标注的螺丝位置" data-lb><figcaption>红圈处为螺丝位置（侧视）</figcaption></figure>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= 更换 ================= -->
+  <section class="section section-alt" id="replace">
+    <div class="section-head reveal">
+      <p class="section-no">04</p>
+      <h2>Phase B · 更换灯板</h2>
+      <p class="section-desc">先确认型号再动手，剪脚位置要果断、一次到位。</p>
+    </div>
+
+    <div class="timeline">
+      <article class="step reveal">
+        <div class="step-no">5</div>
+        <div class="step-body">
+          <h3>确认灯板型号</h3>
+          <p>灯板型号就藏在下面这块铁片下面，购买新灯板前务必先核对。</p>
+          <div class="fig-row">
+            <figure><img src="assets/img/11.jpg" loading="lazy" alt="掀开铁片可见灯板型号" data-lb><figcaption>掀开铁片，可见灯板型号</figcaption></figure>
+          </div>
+        </div>
+      </article>
+
+      <article class="step reveal">
+        <div class="step-no">6</div>
+        <div class="step-body">
+          <h3>剪断三根针脚</h3>
+          <p>用水口钳在标注位置剪断三根针脚，一次剪断，避免反复受力。</p>
+          <div class="fig-row">
+            <figure><img src="assets/img/12.jpg" loading="lazy" alt="水口钳剪断三根针脚" data-lb><figcaption>用水口钳剪断针脚</figcaption></figure>
+            <figure><img src="assets/img/13.jpg" loading="lazy" alt="剪断针脚的位置标注" data-lb><figcaption>剪断位置标注（红箭头处）</figcaption></figure>
+          </div>
+        </div>
+      </article>
+
+      <article class="step reveal">
+        <div class="step-no">7</div>
+        <div class="step-body">
+          <h3>拿下主 PCB</h3>
+          <p>小心取下主 PCB 板，放置在干净柔软的台面上。</p>
+          <div class="fig-row">
+            <figure><img src="assets/img/14.jpg" loading="lazy" alt="小心拿下主PCB" data-lb><figcaption>小心取下主板</figcaption></figure>
+          </div>
+        </div>
+      </article>
+
+      <article class="step reveal">
+        <div class="step-no">8</div>
+        <div class="step-body">
+          <h3>平口刀铲掉固定柱</h3>
+          <p>用平口刀铲掉图中的固定柱，为取出旧灯板腾出空间。</p>
+          <div class="fig-row">
+            <figure><img src="assets/img/15.jpg" loading="lazy" alt="平口刀铲掉固定柱" data-lb><figcaption>铲掉灯板四周的固定柱</figcaption></figure>
+          </div>
+        </div>
+      </article>
+
+      <article class="step reveal">
+        <div class="step-no">9</div>
+        <div class="step-body">
+          <h3>撬起旧灯板</h3>
+          <p>固定柱清除后，从边角将老化的旧灯板撬起取下。</p>
+          <div class="fig-row">
+            <figure><img src="assets/img/16.jpg" loading="lazy" alt="撬起旧灯板" data-lb><figcaption>从边角撬起旧灯板</figcaption></figure>
+          </div>
+        </div>
+      </article>
+
+      <article class="step reveal">
+        <div class="step-no">10</div>
+        <div class="step-body">
+          <h3>放入新灯板</h3>
+          <p>将全新 LED 灯板对位放入，注意方向与走线位置。</p>
+          <div class="fig-row">
+            <figure><img src="assets/img/17.jpg" loading="lazy" alt="放入全新灯板" data-lb><figcaption>新灯板（TOP-8451AB-B1）就位</figcaption></figure>
+          </div>
+        </div>
+      </article>
+
+      <article class="step reveal">
+        <div class="step-no">11</div>
+        <div class="step-body">
+          <h3>安装海绵</h3>
+          <p>别忘了海绵：如果没有放海绵，灯板会和前面板之间有空隙，字体会产生重影。</p>
+          <div class="fig-row">
+            <figure><img src="assets/img/18.jpg" loading="lazy" alt="压上海绵" data-lb><figcaption>在灯板上压上海绵</figcaption></figure>
+          </div>
+        </div>
+      </article>
+
+      <article class="step reveal">
+        <div class="step-no">12</div>
+        <div class="step-body">
+          <h3>插入主板，接回三根针脚</h3>
+          <p>插入主板，并将剪断侧的三根针也插到灯板上，确保接触牢固。</p>
+          <div class="fig-row">
+            <figure><img src="assets/img/19.jpg" loading="lazy" alt="插入主板并接回针脚" data-lb><figcaption>插入主板，接回三根针脚</figcaption></figure>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= 复原 ================= -->
+  <section class="section" id="rebuild">
+    <div class="section-head reveal">
+      <p class="section-no">05</p>
+      <h2>Phase C · 复原</h2>
+      <p class="section-desc">最后一步，也是验收的一步。</p>
+    </div>
+
+    <div class="finale reveal">
+      <div class="step-no finale-no">13</div>
+      <div class="finale-body">
+        <h3>锁紧螺丝 · 测试 · 装回壳子</h3>
+        <p>锁紧所有螺丝，通电测试显示正常后，装回壳子——大功告成！</p>
+        <ul class="check-list">
+          <li>✅ 四颗螺丝全部锁紧</li>
+          <li>✅ 通电测试：显示完整、无重影</li>
+          <li>✅ 装回壳子，卡扣全部咬合</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 成果 ================= -->
+  <section class="section section-alt" id="gallery">
+    <div class="section-head reveal">
+      <p class="section-no">06</p>
+      <h2>效果展示</h2>
+      <p class="section-desc">更换灯板后的实拍效果，各色灯板焕然一新。点击图片可放大查看。</p>
+    </div>
+    <div class="gallery" id="galleryGrid">
+      <figure class="g-item reveal"><img src="assets/img/20.jpg" loading="lazy" alt="效果展示 1" data-lb></figure>
+      <figure class="g-item reveal"><img src="assets/img/21.jpg" loading="lazy" alt="效果展示 2" data-lb></figure>
+      <figure class="g-item reveal"><img src="assets/img/22.jpg" loading="lazy" alt="效果展示 3" data-lb></figure>
+      <figure class="g-item reveal"><img src="assets/img/23.jpg" loading="lazy" alt="效果展示 4" data-lb></figure>
+      <figure class="g-item reveal"><img src="assets/img/24.jpg" loading="lazy" alt="效果展示 5" data-lb></figure>
+      <figure class="g-item reveal"><img src="assets/img/25.jpg" loading="lazy" alt="效果展示 6" data-lb></figure>
+      <figure class="g-item reveal"><img src="assets/img/26.jpg" loading="lazy" alt="效果展示 7" data-lb></figure>
+      <figure class="g-item reveal"><img src="assets/img/27.jpg" loading="lazy" alt="效果展示 8：白色灯板" data-lb></figure>
+      <figure class="g-item reveal"><img src="assets/img/28.jpg" loading="lazy" alt="效果展示 9：红色灯板" data-lb></figure>
+      <figure class="g-item reveal"><img src="assets/img/29.jpg" loading="lazy" alt="效果展示 10：蓝色灯板" data-lb></figure>
+      <figure class="g-item reveal"><img src="assets/img/30.jpg" loading="lazy" alt="效果展示 11：橙色灯板" data-lb></figure>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>原文来自个人 Joplin 笔记 · <em>《关于小米智能闹钟的一切》</em> · 图片均为实拍</p>
+    <p class="footer-fine">Static page rebuilt with ♥ · 2026</p>
+  </footer>
+
+</main>
+
+<button class="to-top" id="toTop" aria-label="回到顶部">↑</button>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lb-close" id="lbClose" aria-label="关闭">×</button>
+  <button class="lb-prev" id="lbPrev" aria-label="上一张">‹</button>
+  <img src="" alt="" id="lbImg">
+  <button class="lb-next" id="lbNext" aria-label="下一张">›</button>
+</div>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
